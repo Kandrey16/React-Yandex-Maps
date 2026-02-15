@@ -16,7 +16,7 @@ const GeocodeMap = ({ isShow }: GeocodeMapProps) => {
 	return (
 		<Map
 			state={{ center: CENTER, zoom: ZOOM }}
-			className='w-3/4 min-h-200 h-fit border rounded-xl overflow-hidden'
+			className='w-3/4 min-h-150 h-fit border rounded-xl overflow-hidden'
 			modules={['geocode', 'route']}
 		>
 			{points.map((p, i) => (

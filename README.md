@@ -50,4 +50,4 @@ npm run dev
 5. Состояние хранится в сторе Zustand, и кэшируется в localStorage
 
 ## Результат
-![alt text](image.png)
+![alt text](image-1.png)

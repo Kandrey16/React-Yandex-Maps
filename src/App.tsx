@@ -66,14 +66,14 @@ function App() {
 			>
 				<div className='flex items-center gap-4'>
 					<button
-						className='px-6 py-3 
-    bg-gradient-to-r from-purple-600 to-indigo-600
-    hover:from-purple-700 hover:to-indigo-700
-    active:from-purple-800 active:to-indigo-800
-    text-white font-medium
-    rounded-xl shadow-md hover:shadow-lg
-    transition-all duration-200
-    focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-offset-2'
+						className='px-6 py-6 
+						bg-gradient-to-r from-purple-600 to-indigo-600
+						hover:from-purple-700 hover:to-indigo-700
+						active:from-purple-800 active:to-indigo-800
+						text-white font-medium
+						rounded-xl shadow-md hover:shadow-lg
+						transition-all duration-200
+						focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-offset-2'
 						onClick={() => {
 							generatePoints()
 							setShow(false)
@@ -87,7 +87,7 @@ function App() {
 								<input
 									{...register('point1', { required: 'Заполните точку 1' })}
 									placeholder='55.75, 37.61'
-									className='text-black bg-white/90 px-3 py-1 rounded w-48'
+									className='text-white bg-gray-800 placeholder:text-gray-400 px-3 py-1 rounded w-48'
 									onInput={(e) => {
 										let v = e.currentTarget.value.replace(/[^0-9.,-]/g, '')
 										if (v.match(/,/g)?.length > 1)
@@ -108,7 +108,7 @@ function App() {
 								<input
 									{...register('point2', { required: 'Заполните точку 2' })}
 									placeholder='55.76, 37.62'
-									className='text-black bg-white/90 px-3 py-1 rounded w-48'
+									className='text-white bg-gray-800 placeholder:text-gray-400 px-3 py-1 rounded w-48'
 									onInput={(e) => {
 										let v = e.currentTarget.value.replace(/[^0-9.,-]/g, '')
 										if (v.match(/,/g)?.length > 1)
