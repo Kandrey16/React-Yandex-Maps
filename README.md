@@ -16,7 +16,7 @@ npm run dev
 ```
 
 Проект был реализован с помощью React yandex maps https://pbe-react-yandex-maps.vercel.app/
-(leaflet + тайлы OSM из-за санцкий не работал, изображение карты не прогружалось).
+(leaflet + тайлы OSM из-за санкций не работал, изображение карты не прогружалось).
 
 ## Технологии 
 #### ReactJS, Typescript, Zustand, React-Hook-Form, TailwindCSS
